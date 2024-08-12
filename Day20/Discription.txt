@@ -1,0 +1,7 @@
+Day 20:  Multithreading
+
+    Task 1: Create any multithreaded code using for loop for creating multithreads
+        for i in range(10):
+            th = Thread(target=func_name, args=(i, ))
+    
+    Task 2: print total active threads in multithreaded code using threading.active_count()
